@@ -40,16 +40,16 @@
     "watch": "pkg-utils watch --strict"
   },
   "dependencies": {
-    "@sanity/icons": "^2.11.8",
-    "@sanity/incompatible-plugin": "^1.0.4",
+    "@sanity/icons": "^3.7.4",
+    "@sanity/incompatible-plugin": "^1.0.5",
     "@sanity/uuid": "^3.0.2",
     "react-markdown": "^9.0.1",
     "remark-gfm": "^4.0.0"
   },
   "devDependencies": {
-    "@sanity/pkg-utils": "^6.8.0",
-    "@sanity/plugin-kit": "^4.0.5",
-    "@types/react": "^18.2.79",
+    "@sanity/pkg-utils": "^7.11.7",
+    "@sanity/plugin-kit": "^4.0.19",
+    "@types/react": "^19.2.7",
     "@typescript-eslint/eslint-plugin": "^7.7.0",
     "@typescript-eslint/parser": "^7.7.0",
     "eslint": "^8.56.0",
@@ -60,14 +60,13 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "prettier": "^3.2.5",
     "prettier-plugin-packagejson": "^2.5.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3",
     "typescript": "^5.4.5"
   },
   "peerDependencies": {
-    "@sanity/ui": "^1 || ^2",
-    "react": "^18",
-    "sanity": "^3",
+    "react": "^18 || ^19",
+    "sanity": "^3 || ^4",
     "styled-components": "^5 || ^6"
   },
   "engines": {

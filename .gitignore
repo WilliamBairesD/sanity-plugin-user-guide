@@ -57,7 +57,7 @@ yalc.lock
 *.tgz
 
 # Compiled plugin
-dist
+# dist
 
 # Build cache??
 dev/null
